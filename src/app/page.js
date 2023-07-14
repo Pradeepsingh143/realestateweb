@@ -3,7 +3,7 @@ import homeimage from "../../public/assests/home.jpg";
 import fastcash from "../../public/assests/fastcash.png";
 import personalizedSeller from "../../public/assests/personalized.png";
 import aboutImage from "../../public/assests/about-image.jpg";
-import group from "../../public/assests/group 2.svg"
+import group from "../../public/assests/group.svg"
 import Link from "next/link";
 
 const heroSectionStyle = {
