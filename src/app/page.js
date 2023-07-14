@@ -37,12 +37,11 @@ export default function Home() {
         </div>
         <div className="hidden w-full sm:w-9/12 lg:w-3/4 xl:w-7/12 bg-black sm:grid grid-cols-3 text-left text-white self-end">
           <div className="detail__1 my-5 ml-5 border-b-2">
-            <h3>No one can predict what the future awaits. </h3>
+            <h3>Selling your house made easy: Fast cash, tailored solutions, and a positive impact. </h3>
           </div>
           <div className="detail__2 my-5 border-b">
             <h3 className="px-5">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              consectetur urna erat.{" "}
+            Your home, your needs, our solution. Experience a hassle-free selling process with us.
             </h3>
           </div>
           <div className="detail__3">
