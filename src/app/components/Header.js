@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useState } from "react";
 
 export default function Header() {
-  const [toggleMenu, setToggleMenu] = useState(false);
+  const [toggleMenu, setToggleMenu] = useState(true);
   return (
     <header>
       <div className="container flex items-center py-6">
