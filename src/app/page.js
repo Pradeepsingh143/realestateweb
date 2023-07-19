@@ -2,7 +2,7 @@ import Image from "next/image";
 import homeimage from "../../public/assests/home.jpg";
 import fastcash from "../../public/assests/fastcash.png";
 import personalizedSeller from "../../public/assests/personalized.png";
-import consultations from "../../public/assests/consulting.png";
+import consultations from "../../public/assests/Consulting.png";
 import investment from "../../public/assests/startup.png";
 import aboutImage from "../../public/assests/about-image.jpg";
 import group from "../../public/assests/group.svg"
