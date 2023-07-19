@@ -1,6 +1,8 @@
 "use client";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
+import Image from "next/image";
+import logo from "../../../public/assests/logo.png";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -9,7 +11,14 @@ export default function Header() {
   return (
     <header>
       <div className="container flex items-center py-6">
-        <div className="logo grow text-xl text-white">logo</div>
+        <div className="logo grow text-xl text-white">
+        <Image
+              alt="Property"
+              src={logo}
+              width={55}
+              height={55}
+            />
+        </div>
         <nav className="list-none gap-14 hidden sm:flex items-center font-medium tracking-wide text-white z-10">
           <Link href={"#about"}>
             <li>About Us</li>
@@ -42,7 +51,7 @@ export default function Header() {
         </div>
         <div className="mobileMenu sm:hidden">
             {!toggleMenu && 
-             <nav className="absolute container top-16 py-10 left-0 w-full list-none flex flex-col gap-5 font-medium tracking-wide text-white z-10 bg-primary">
+             <nav className="absolute container top-24 py-10 left-0 w-full list-none flex flex-col gap-5 font-medium tracking-wide text-white z-10 bg-primary">
              <Link href={"#about"}>
                <li>About Us</li>
              </Link>

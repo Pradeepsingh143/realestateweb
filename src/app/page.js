@@ -2,6 +2,8 @@ import Image from "next/image";
 import homeimage from "../../public/assests/home.jpg";
 import fastcash from "../../public/assests/fastcash.png";
 import personalizedSeller from "../../public/assests/personalized.png";
+import consultations from "../../public/assests/consulting.png";
+import investment from "../../public/assests/startup.png";
 import aboutImage from "../../public/assests/about-image.jpg";
 import group from "../../public/assests/group.svg"
 import Link from "next/link";
@@ -28,8 +30,7 @@ export default function Home() {
             and investment firm
           </h1>
           <h3 className="text-white mt-3 block sm:hidden leading-6 tracking-wide">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            consectetur urna erat.
+          Selling your house made easy Fast cash, tailored solutions, and a positive impact. Your home, your needs, our solution. Experience a hassle-free selling process with us.
           </h3>
           <Link href={"#contact"} className="scroll-smooth"><button className="text-white mt-8 font-semibold tracking-wide bg-primary capitalize py-2 px-8 w-fit hover:brightness-75">
             Contact Us
@@ -109,7 +110,7 @@ export default function Home() {
               </h2>
             </div>
             <div className="card flex flex-col justify-around bg-white p-4 lg:p-8 relative">
-              <Image alt="Property" src={fastcash} width={200} height={150} />
+              <Image alt="Property" src={consultations} width={200} height={150} />
               <h2 className="absolute top-4 right-4 text-5xl font-black opacity-5">
                 3
               </h2>
@@ -118,7 +119,7 @@ export default function Home() {
               </h2>
             </div>
             <div className="card flex flex-col justify-around bg-white p-4 lg:p-8 relative">
-              <Image alt="Property" src={fastcash} width={200} height={150} />
+              <Image alt="Property" src={investment} width={200} height={150} />
               <h2 className="absolute top-4 right-4 text-5xl font-black opacity-5">
                 4
               </h2>
@@ -185,7 +186,8 @@ export default function Home() {
             <h2 className="w-fit border-b-4 border-white border-double text-xl md:text-2xl text-white tracking-wider leading-10 uppercase font-semibold">Contact Us</h2>
             <div className="call mt-6">
             <h3 className="text-lg md:text-xl text-white tracking-wider leading-10 uppercase font-semibold">Call Us</h3>
-            <h3 className="text-md text-white tracking-wider leading-8 uppercase opacity-90">888-888-8888</h3>
+            <h3 className="text-md text-white tracking-wider leading-8 uppercase opacity-90">(470) 209-3591</h3>
+            <h3 className="text-md text-white tracking-wider leading-8 uppercase opacity-90">(516) 458-8616</h3>
             </div>
             <div className="email mt-3">
             <h3 className="text-lg md:text-xl text-white tracking-wider leading-10 uppercase font-semibold">Email Us</h3>
@@ -194,6 +196,7 @@ export default function Home() {
             <div className="address mt-3">
             <h3 className="text-lg md:text-xl text-white tracking-wider leading-10 uppercase font-semibold">Our Address</h3>
             <p className="text-md text-white tracking-wider leading-8 uppercase opacity-90">191 Urban Ave.Westbury, NY 11590</p>
+            <p className="text-md text-white tracking-wider leading-8 uppercase opacity-90"> 2483 Heritage Village ste 16-331, Snellville, Ga. 30078</p>
             </div>
           </div>
           <div className="map w-full md:w-1/2">
