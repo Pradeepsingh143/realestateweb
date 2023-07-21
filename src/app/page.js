@@ -63,8 +63,8 @@ export default function Home() {
           <div className="about-details flex flex-col sm:items-center sm:flex-row gap-4 sm:gap-10 h-auto sm:h-60">
             <div className="heading sm:grow mt-6 sm:mt-0">
               <h2 className="capitalize leading-10 tracking-wider text-2xl lg:text-3xl xl:text-4xl font-semibold w-72">
-                Performee Throught{" "}
-                <span className="text-primary font-bold">Passion</span>
+                About{" "}
+                <span className="text-primary font-bold">Us</span>
               </h2>
             </div>
             <div className="paragraph w-full sm:w-80">
@@ -191,12 +191,12 @@ export default function Home() {
             </div>
             <div className="email mt-3">
             <h3 className="text-lg md:text-xl text-white tracking-wider leading-10 uppercase font-semibold">Email Us</h3>
-            <h3 className="text-md text-white tracking-wider leading-8 uppercase opacity-90">example@gmail.com</h3>
+            <h3 className="text-md text-white tracking-wider leading-8 uppercase opacity-90">Bramblemgmt2017@gmail.com</h3>
             </div>
             <div className="address mt-3">
             <h3 className="text-lg md:text-xl text-white tracking-wider leading-10 uppercase font-semibold">Our Address</h3>
-            <p className="text-md text-white tracking-wider leading-8 uppercase opacity-90">191 Urban Ave.Westbury, NY 11590</p>
-            <p className="text-md text-white tracking-wider leading-8 uppercase opacity-90"> 2483 Heritage Village ste 16-331, Snellville, Ga. 30078</p>
+            <p className="text-md text-white tracking-wider leading-8 uppercase opacity-90">2483 Heritage Village ste 16-331, Snellville, Ga. 30078</p>
+            <p className="text-md text-white tracking-wider leading-8 uppercase opacity-90">191 Urban Ave Westbury, NY 11590</p>
             </div>
           </div>
           <div className="map w-full md:w-1/2">
